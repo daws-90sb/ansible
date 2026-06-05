@@ -1,0 +1,11 @@
+- name: demo on variables
+  hosts: localhost
+  connection: localhost # it will not ask for username ans password
+  vars:
+    COURSE: "Ansible"
+    Trainer: "Siva"
+    Duration: "150 hrs"
+  tasks:
+   - debug: #inorder to print something debug is used
+      msg: " I'am learning {{COURSE}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
+     
