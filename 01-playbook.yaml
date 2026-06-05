@@ -1,0 +1,6 @@
+- name: "ping the server"
+  hosts: roboshop # target server
+  task: # tasks == module == collections
+   - name: ping the server
+     ping:
+

@@ -1,0 +1,31 @@
+- name: "L Sai Nithisha" # this is called list of student info
+  dob: "16-03-2000"
+  age: "20"
+  phoneno: "7989082886"
+  Addresses:                   # Address is also called as list in this list there are 2 objects
+  - type: "prem"
+    city: "hyd"
+    street: "pragathinagar"
+    apartment: "sri sai"
+
+  - type: "prem"
+    city: "hyd"
+    street: "pragathinagar"
+    apartment: "sri sai"
+
+- name: "L Sai Nithisha" # this is another stu info another list
+  dob: "16-03-2000"
+  age: "20"
+  phoneno: "7989082886"
+  Addresses:
+  - type: "prem"
+    city: "hyd"
+    street: "pragathinagar"
+    apartment: "sri sai"
+
+  - type: "prem"
+    city: "hyd"
+    street: "pragathinagar"
+    apartment: "sri sai"
+
+  # indentation should be in sync line by line for the yaml script

@@ -1,0 +1,50 @@
+{
+    "students": [
+
+    {
+    "Firstname" : "Lokam",
+    "Lastname" : "Nithisha",
+    "addresses" : [
+        
+        {
+            "type":"permenant",
+             "street": "greenwinds",
+             "apartment":"laxmi",
+             "city":"hyd"
+        },
+        {
+            "type":"permenant",
+             "street": "greenwinds",
+             "apartment":"laxmi",
+             "city":"hyd"
+        }
+
+
+    ]
+    },
+    {
+    "Firstname" : "Lokam",
+    "Lastname" : "Nithisha",
+    "addresses" : [
+        
+        {
+            "type":"permenant",
+             "street": "greenwinds",
+             "apartment":"laxmi",
+             "city":"hyd"
+        },
+        {
+            "type":"permenant",
+             "street": "greenwinds",
+             "apartment":"laxmi",
+             "city":"hyd"
+        }
+
+
+    ]
+
+    }
+
+]
+
+}

@@ -1,0 +1,42 @@
+<students>
+  <student1>
+    <FirstName>Nithisha</FirstName>
+    <LastName>Lokam</LastName>
+    <DOB>16-03-2000</DOB>
+    <Mobile>1234567890</mobile>
+    <!-- <Address>simhadrnagar-2</simhadrinagar-2> -->
+    <Addresses>
+        <permenantAddress>
+               <Addressline1>simhadrinagar-2</addressline2>
+               <Addressline2>9-1-35</Addressline2>
+               <city>kmm</city>
+        </permanetAddress>
+        <currentAddress>
+               <Addressline1>simhadrinagar-2</addressline2>
+               <Addressline2>9-1-35</Addressline2>
+               <city>kmm</city>
+         </currentAddress>      
+      </permanetAddress>
+    </Addresses>    
+  </student1>
+  <student2>
+    <FirstName>Nithisha</FirstName>
+    <LastName>Lokam</LastName>
+    <DOB>16-03-2000</DOB>
+    <Mobile>1234567890</mobile>
+    <!-- <Address>simhadrnagar-2</simhadrinagar-2> -->
+    <Addresses>
+        <permenantAddress>
+               <Addressline1>simhadrinagar-2</addressline2>
+               <Addressline2>9-1-35</Addressline2>
+               <city>kmm</city>
+        </permanetAddress>
+        <currentAddress>
+               <Addressline1>simhadrinagar-2</addressline2>
+               <Addressline2>9-1-35</Addressline2>
+               <city>kmm</city>
+         </currentAddress>      
+      </permanetAddress>
+    </Addresses>    
+  </student2>
+</students>    
