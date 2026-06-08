@@ -5,10 +5,10 @@
     full_name: "siva from play"
   #vars_files: # vars file
   #- course.yaml   
-  vars_prompt: # vars prompt 
-  - name: full_name
-    prompt: "please enter your full_name"
-    private: false
+  # vars_prompt: # vars prompt 
+  # - name: full_name
+  #   prompt: "please enter your full_name"
+  #   private: false
   tasks: # vars task
   - name: print vars preference
     vars: 
@@ -20,3 +20,5 @@
 # 1. cmd line args
 # 2. task level
 # 3. vars files
+# 4. prompt
+# 5.
