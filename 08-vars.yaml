@@ -1,4 +1,4 @@
-- name: "Demo on iventory variables"
+- name: Demo on iventory variables
   hosts: frontend
   #connection: local
   tasks:
