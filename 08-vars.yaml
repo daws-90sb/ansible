@@ -6,7 +6,5 @@
     debug:
       msg: "I'am learning {{COURSE}}, Trainer is {{TRAINER}}, Duration is {{DURATION}}"
 
-"
-
 
       
