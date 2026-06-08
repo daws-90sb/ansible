@@ -1,4 +1,4 @@
-- name: demo on playlevel variables
+- name: demo on task level variables
   hosts: localhost
   connection: localhost # it will not ask for username ans password
   vars:
@@ -6,6 +6,9 @@
     Trainer: "Siva"
     Duration: "150 hrs"
   tasks:
-   - debug: #inorder to print something debug is used
+  - name: print information
+    vars:
+      COURSE: "DevSecops with AIOps"  
+    debug: #inorder to print something debug is used
       msg: " I'am learning {{COURSE}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
      
