@@ -8,7 +8,7 @@
   tasks:
   - name: print information
     vars:
-      COURSE: "DevSecops with AIOps"  
+      COURSE: "DevSecops with AIOps"  # task level child will override the child in var
     debug: #inorder to print something debug is used
       msg: " I'am learning {{COURSE}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
      

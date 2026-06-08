@@ -1,0 +1,10 @@
+- name: demo on var_files
+  hosts: local
+  connection: local
+  var_file:
+  - course.yaml
+  tasks:
+  - name: print variables information
+    debug: 
+      msg: "I'am learning {{COURSE}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
+    
