@@ -7,4 +7,8 @@
   - name: print variables information
     debug: 
       msg: "I'am learning {{COURSE}}, Trainer is {{TRAINER}}, Duration is {{DURATION}}"
+
+
+
+      
     
