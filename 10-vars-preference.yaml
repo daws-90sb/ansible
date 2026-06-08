@@ -5,13 +5,17 @@
     full_name: "siva from play"
   vars_files: # vars file
   - course.yaml   
-  vars_prompt: # vars prompt
+  vars_prompt: # vars prompt 
   - name: full_name
     prompt: "please enter your full_name"
     private: false
   tasks: # vars task
   - name: print vars preference
     vars: 
-      full_name: "siva from TASK Level"
+      #full_name: "siva from TASK Level"
     debug: # vars inventory
-      msg: "hi, {{full_name}}"  
+      msg: "hi, {{full_name}}" # always cmd line args will have high preference compared to all other variables  
+
+
+# 1. cmd line args
+# 2. task level
