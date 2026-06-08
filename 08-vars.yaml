@@ -1,0 +1,10 @@
+- name: "Demo on iventory variables"
+  hosts: frontend
+  #connection: local
+  tasks:
+   - name: print information
+     debug:
+      msg: "username is: {{ username }}, password is: {{ password }}"
+
+
+      
