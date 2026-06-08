@@ -1,4 +1,6 @@
-- name: demo vars from cmd
+# command line arguments
+# if u r not defining variable anywhere in file then u can pass variables as command line arguments
+- name: demo vars from cmd 
   hosts: local
   connection: local
   tasks:
