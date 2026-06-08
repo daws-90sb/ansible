@@ -1,6 +1,6 @@
 - name: demo on task level variables
   hosts: localhost
-  connection: localhost # it will not ask for username ans password
+  connection: local # it will not ask for username ans password
   vars:
     COURSE: "Ansible"
     Trainer: "Siva"
