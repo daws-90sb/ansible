@@ -4,7 +4,9 @@
   tasks:
   - name: print information
     debug:
-      msg: "username is: {{ username }}, password is: {{ password }}"
+      msg: "I'am learning {{COURSE}}, Trainer is {{TRAINER}}, Duration is {{DURATION}}"
+
+"
 
 
       
