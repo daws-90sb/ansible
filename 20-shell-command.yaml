@@ -5,4 +5,9 @@
   - name: command test
     #command: cat /etc/passwd | grep root # pipes should need shell permissions the command will fail in ansible
     shell: cat /etc/passwd | grep root
+    register: users_output # register key word is used to take the output into a variable
+
+  - name: print output
+    debug:
+     msg: "{{ users_output }}"  
     
