@@ -6,8 +6,8 @@
     package:
       name: "{{ item }}"
       state: present
-    loop:
-     - nginx
+    loop:  # installing the packages one by one
+     - nginx 
      - mysql
      - mongodb-mongosh
      - git
