@@ -3,6 +3,11 @@
   connection: local
   vars:
    topics: Linux, Shell, Ansible, Terraform
+   tagMap: # ansible map to list
+     name: Ansible
+     project: Roboshop
+     environment: dev
+
   tasks:
   - name: convert string to list
     debug:
@@ -10,4 +15,9 @@
 
   - name: set default value
     debug:
-      msg: "Hi, {{ Greetings | default('Good Mrng') }}" # we can use default() as default variable for any variables that we give
+      msg: "Hi, {{ Greetings | default('Good Mrng') }}" # we can use default() as default variable for any variables that we give, when we haven't given value anywhere
+  
+  - name: convert map to list
+    debug:
+      msg: "{{ tagMap | dict2items }}" # this dict2items is used for converting map to list
+
