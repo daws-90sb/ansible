@@ -8,6 +8,7 @@
      project: Roboshop
      environment: dev
    full_name: Lokam Sai Nithisha 
+   ipv4_address: 100.345.879.982
    tagslist:  [
         {
             "key": "name",
@@ -45,4 +46,8 @@
 
   - name: convert to Uppercase
     debug:
-      msg: "{{ full_name | lower }}" # to convert uppercase to lowercase   
+      msg: "{{ full_name | lower }}" # to convert uppercase to lowercase
+
+  - name: check ipv4 address
+    debug:
+     msg: "{{ ipv4_address | ansible.utils.ipv4 }}"    # ansible filter to check ipv4 address is valid or not   
