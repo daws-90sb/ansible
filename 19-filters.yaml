@@ -6,4 +6,8 @@
   tasks:
   - name: convert string to list
     debug:
-     msg: "Topics are: {{ topics | split(',') }}" 
+     msg: "Topics are: {{ topics | split(',') }}" # split is the one which is used as to print the variable as list
+
+  - name: set default value
+    debug:
+      msg: "Hi, {{ Greetings | default('Good Mrng') }}" # we can use default() as default variable for any variables that we give
