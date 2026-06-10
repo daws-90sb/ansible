@@ -12,5 +12,5 @@
      msg: "{{ users_output }}"
 
   - name: list files
-    command: ls -ltr > /tmp/files.txt # redirection fails      
-    
+    #command: ls -ltr > /tmp/files.txt # redirection fails      
+    shell:  ls -ltr > /tmp/files.txt # shell it will get succeded
