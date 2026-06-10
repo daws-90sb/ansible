@@ -12,14 +12,14 @@
     more_details:  # map - contains multiple key value pairs
       months: "5"     
       trainer: "sivakumar reddy"
-    tasks:
-     - name: print information
-       debug:
-         msg: | # if we want to give multiple lines in a msg then use the pipe symbol as used here
-          name: {{ course }}
-          duration: {{ duration_in_hrs }}
-          is_it_live: {{ is_live_sessions }}
-          topics: {{ topics }}
-          more_details: {{ more_details }}
+  tasks:
+  - name: print information
+    debug:
+      msg: | # if we want to give multiple lines in a msg then use the pipe symbol as used here
+        name: {{ course }}
+        duration: {{ duration_in_hrs }}
+        is_it_live: {{ is_live_sessions }}
+        topics: {{ topics }}
+        more_details: {{ more_details }}
 
 
