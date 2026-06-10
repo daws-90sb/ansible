@@ -8,7 +8,7 @@
      project: Roboshop
      environment: dev
    full_name: Lokam Sai Nithisha 
-   ipv4_address: 100.345.879.982
+   ipv4_address: 190.35.79.98
    tagslist:  [
         {
             "key": "name",
@@ -51,3 +51,5 @@
   - name: check ipv4 address
     debug:
      msg: "{{ ipv4_address | ansible.utils.ipv4 }}"    # ansible filter to check ipv4 address is valid or not   
+
+     #  pip3.9 install netaddr to install python library
