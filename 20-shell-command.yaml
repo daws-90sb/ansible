@@ -9,5 +9,8 @@
 
   - name: print output
     debug:
-     msg: "{{ users_output }}"  
+     msg: "{{ users_output }}"
+
+  - name: list files
+    command: ls -ltr > /tmp/files.txt # redirection fails      
     
