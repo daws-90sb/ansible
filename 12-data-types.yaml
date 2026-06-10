@@ -10,7 +10,7 @@
     - shell
     - ansible
     more_details:  # map - contains multiple key value pairs
-      months: "5"     
+      months: "5"  # u can give like string within "" or as interger without quotes 
       trainer: "sivakumar reddy"
   tasks:
   - name: print information
