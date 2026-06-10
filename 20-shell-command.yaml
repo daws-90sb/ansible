@@ -3,5 +3,6 @@
   connection: local
   tasks:
   - name: command test
-    command: cat /etc/passwd | grep root
+    #command: cat /etc/passwd | grep root # pipes should need shell permissions the command will fail in ansible
+    shell: cat /etc/passwd | grep root
     
