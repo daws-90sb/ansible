@@ -8,7 +8,7 @@
      debug:
        msg: "given number is {{ number }} is even"
      when:   number % 2 == 0
-    - name: is odd
-      debug:
-        msg: "given number is {{ number }} is odd"
-      when:   number % 2 != 0
+   - name: is odd
+     debug:
+      msg: "given number is {{ number }} is odd"
+     when:   number % 2 != 0
