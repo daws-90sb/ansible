@@ -3,4 +3,7 @@
   tasks: # tasks == module == collections
    - name: ping the server
      ping: #ansible.builtin.ping
+     
+     #command to execute the playbook or ansible files
+     #ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 01-playbook.yaml
 

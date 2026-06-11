@@ -6,7 +6,8 @@
   - name: check roboshop user exit or not
     command: id roboshop
     register: user_output
-    ignore_errors: true  # it is known error so we r ignoring the error by using the ignore_error
+    ignore_errors: true  # it is known error so we r ignoring the error by using the ignore_error, 
+    # in ansible idempotency is handled otherwise we need to handle manually
 
   - name: print user_output
     debug:

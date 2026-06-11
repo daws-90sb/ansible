@@ -1,0 +1,12 @@
+
+# irrespective of number of times u run the script, result will be same
+# we only get idempotency favor when we use the ansible module or else we will not get the idempotency by using the command line or shell script
+# in ansible idempotency is handled otherwise we need to handle manually
+- name: create user
+  become: yes
+  hosts: local
+  connection: local
+  tasks:
+  - name: create expense user
+    user:
+     name: expense # user add expense
