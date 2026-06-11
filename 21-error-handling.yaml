@@ -1,0 +1,7 @@
+- name: demo on error handling
+  hosts: local
+  connection: local
+  tasks:
+  - name: check roboshop user exit or not
+    command: id roboshop
+      
